@@ -6,32 +6,32 @@ class Encaptulate
 	private String name;
 	private int age;
 		
-	public int getRollNo()
+	public int GetRollNo()
 	{
 		return rollNo;
 	}
 	
-	public String getName()
+	public String GetName()
 	{
 		return name;
 	}
 	
-	public int getAge()
+	public int GetAge()
 	{
 		return age;
 	}
 		
-	public void setRollNo(int newRollNo)
+	public void SetRollNo(int newRollNo)
 	{
 		rollNo=newRollNo;
 	}
 	
-	public void setName(String newName)
+	public void SetName(String newName)
 	{
 		name=newName;
 	}
 	
-	public void setAge(int newAge)
+	public void SetAge(int newAge)
 	{
 		age=newAge;
 	}
@@ -41,13 +41,13 @@ public class Encaptulation
 {
 	public static void main(String args[])
 	{
-		Encaptulate e=new Encaptulate();
-		e.setRollNo(101);
-		e.setName("Vishal");
-		e.setAge(20);
+		Encaptulate encaptulate=new Encaptulate();
+		encaptulate.SetRollNo(101);
+		encaptulate.SetName("Vishal");
+		encaptulate.SetAge(20);
 		
-		System.out.println("Roll number is : "+e.getRollNo());
-		System.out.println("Name is : "+e.getName());
-		System.out.println("Age is : "+e.getAge());
+		System.out.println("Roll number is : "+encaptulate.GetRollNo());
+		System.out.println("Name is : "+encaptulate.GetName());
+		System.out.println("Age is : "+encaptulate.GetAge());
 	}
 }
