@@ -21,7 +21,7 @@ public class Constructor
 		System.out.println("This is parameterized constructor call");
 	}
 	
-	void calculate()
+	void Calculate()
 	{
 		int addition = numberOne + numberTwo;
 		System.out.println("Addition is : "+addition);
@@ -29,7 +29,7 @@ public class Constructor
 	
 	public static void main(String args[])
 	{
-		Constructor c=new Constructor(10,20); //If we dont pass any value in argument then default constructor will call
-		c.calculate();
+		Constructor constructor=new Constructor(10,20); //If we dont pass any value in argument then default constructor will call
+		constructor.Calculate();
 	}
 }
