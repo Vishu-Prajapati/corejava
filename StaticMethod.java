@@ -8,7 +8,7 @@ class Test
 	static int numberTwo = 20;
 	static int addition;
 		
-	static void display() //Static method accesses only static variables
+	static void Display() //Static method accesses only static variables
 	{
 		addition = numberOne + numberTwo;
 		System.out.println("Answer is : "+addition);
@@ -19,7 +19,7 @@ public class StaticMethod
 {
 	public static void main(String args[])
 	{
-	    Test t = new Test();
-		t.display();
+	    Test test = new Test();
+		test.Display();
 	}
 }
