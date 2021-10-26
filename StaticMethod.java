@@ -1,14 +1,7 @@
 /*Program using static methods*/
 
-
-
 import java.util.*;
 import java.lang.*;
-
-public class static block 
-{
-	System.out.println("i am khan");
-}
 
 class Test
 {
