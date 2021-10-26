@@ -16,17 +16,17 @@ class Demo
 		this.number=number1;
 	}
 	
-	void display1()
+	void DisplayOne()
 	{
 		System.out.println("Value is : "+number);
 	}
 }
 
-class Demo2 extends Demo
+class DemoTwo extends Demo
 {
 	int number = 20;
 	
-	void display()
+	void DisplayTwo()
 	{
 		System.out.println(number); //this prints current class variable value
 		System.out.println(super.number); //this prints parent class variable value
@@ -36,10 +36,10 @@ public class ThisSuperVariables
 {
 	public static void main(String args[])
 	{
-		Demo d1 = new Demo(30);
-		d1.display1();
+		Demo demo = new Demo(30);
+		demo.DisplayOne();
 		
-		Demo2 d2 = new Demo2();
-		d2.display();
+		DemoTwo demoTwo = new Demo2();
+		demoTwo.DisplayTwo();
 	}
 }
