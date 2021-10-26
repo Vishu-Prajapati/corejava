@@ -2,14 +2,14 @@
 
 import java.util.*;
 
-abstract class Test1
+abstract class TestOne
 {
-	abstract void calculate();
+	abstract void Calculate();
 }
 
-class Test2 extends Test1
+class TestTwo extends TestOne
 {
-	void calculate()
+	void Calculate()
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -29,7 +29,7 @@ public class Abstraction
 {
 	public static void main(String args[])
 	{
-		Test2 t=new Test2();
-		t.calculate();
+		TestTwo testTwo=new TestTwo();
+		testTwo.Calculate();
 	}
 }
