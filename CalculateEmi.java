@@ -5,7 +5,7 @@ class CalculateEmi
 {
 	/*Program to Calculate EMI*/
 	
-	void calculateEmi()
+	void Calculate()
 	{
 		Scanner sc = new Scanner(System.in);
 		
@@ -19,7 +19,7 @@ class CalculateEmi
 		float time = sc.nextFloat();
 		
 		interest = interest / ( 12 * 100 ); 
-        time = time * 12; 
+       	        time = time * 12; 
       
 		double emi = ( amount * interest * Math.pow ( 1 + interest , time ) ) / ( Math.pow ( 1 + interest , time ) - 1);
 
@@ -27,7 +27,7 @@ class CalculateEmi
 	}
 	public static void main(String args[])
 	{
-		CalculateEmi c=new CalculateEmi();
-		c.calculateEmi();
+		CalculateEmi calculateEmi=new CalculateEmi();
+		calculateEmi.Calculate();
 	}
 }
