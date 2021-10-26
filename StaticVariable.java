@@ -19,7 +19,7 @@ class Employee
 		this.name = name1;
 	}
 	
-	void display()
+	void Display()
 	{
 		System.out.println(employeeId);
 		System.out.println(salary);
@@ -31,10 +31,10 @@ public class StaticVariable
 {
 	public static void main(String args[])
 	{	
-		Employee e1 = new Employee(101 ,1000 ,"Vishal");
-		e1.display();
+		Employee employee = new Employee(101 ,1000 ,"Vishal");
+		employee.Display();
 		
-		Employee e2 = new Employee(102 ,2000 ,"Nitesh");
-		e2.display();
+		Employee employee = new Employee(102 ,2000 ,"Nitesh");
+		employee.Display();
 	}
 }
