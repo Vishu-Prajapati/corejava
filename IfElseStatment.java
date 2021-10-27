@@ -6,10 +6,10 @@ public class IfElseStatment
 	
 	public static void main(String args[])
 	{
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Enter your Age : ");
-		int age = sc.nextInt();
+		int age = scanner.nextInt();
 		
 		if(age == 20)
 		{
