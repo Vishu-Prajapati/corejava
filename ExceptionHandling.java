@@ -1,8 +1,7 @@
 /*Exception using try ,catch ,finally*/
 
-import java.lang.*;
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
+import java.io.IOException;
 
  class ExceptionHandling 
  {
