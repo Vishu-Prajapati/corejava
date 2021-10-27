@@ -1,6 +1,3 @@
-import java.lang.*;
-import java.util.*;
-
 public class Constructor
 {
 	/*Program using constructor and parameterized constructor*/
