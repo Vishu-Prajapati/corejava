@@ -1,8 +1,9 @@
 /*Create a file and add details in it.....*/
 
-import java.lang.*;
-import java.util.*;
-import java.io.*; 
+import java.lang.String;
+import java.io.File; 
+import java.io.FileWriter;
+import java.io.IOException;
  
 public class CreateFile
 {
