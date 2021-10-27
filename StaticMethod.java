@@ -1,7 +1,5 @@
 /*Program using static methods*/
 
-import java.util.*;
-
 class Test
 {
 	static int numberOne = 10;
