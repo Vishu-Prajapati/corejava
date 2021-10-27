@@ -1,6 +1,6 @@
 /*Program using Data Abstraction*/
 
-import java.util.*;
+import java.util.Scanner;
 
 abstract class TestOne
 {
