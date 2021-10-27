@@ -1,6 +1,3 @@
-import java.util.*;
-import java.lang.*;
-
 public class Pattern
 {
 	public static void main(String args[])
