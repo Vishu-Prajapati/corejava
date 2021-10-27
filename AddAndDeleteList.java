@@ -1,7 +1,6 @@
 /*Create a list and delete duplicate value in the list*/
 
-import java.lang.*;
-import java.util.*;
+import java.util.ArrayList;
 
 public class AddAndDeleteList
 {
