@@ -1,8 +1,7 @@
 /*Program using Map Concept*/
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.util.Map;
+import java.util.HashMap;
 
 public class MapConcept
 {
