@@ -1,7 +1,5 @@
 /*Program using Data Abstraction*/
 
-import java.util.Scanner;
-
 abstract class TestOne
 {
 	abstract void Calculate();
@@ -9,16 +7,17 @@ abstract class TestOne
 
 class TestTwo extends TestOne
 {
-	void Calculate()
+	int numberOne;
+	int numberTwo;
+	
+	TestTwo(int numberOne , int numberTwo) //Parameterized Constructor
 	{
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Enter value of number 1 : ");
-		int numberOne = sc.nextInt();
-		
-		System.out.print("Enter value of number 2 : ");
-		int numberTwo = sc.nextInt();
-		
+		this.numberOne = numberOne;
+		this.numberTwo = numberTwo;
+	}
+	
+	void Calculate()
+	{		
 		double multiplication = numberOne * numberTwo;
 		
 		System.out.println("Multiplication is : "+multiplication);
@@ -29,7 +28,8 @@ public class Abstraction
 {
 	public static void main(String args[])
 	{
-		TestTwo testTwo=new TestTwo();
+		TestTwo testTwo = new TestTwo(12,2);
 		testTwo.Calculate();
 	}
 }
+
