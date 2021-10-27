@@ -1,45 +1,54 @@
 /*Program to implement this and super Keyword*/
 
-import java.util.*;
-
-class Demo
+class TestOne
 {
 	int number = 10;
+	int numberOne;
 	
-	Demo()
+	TestOne() //Default Constructor
 	{
 		
 	}
 	
-	Demo(int number1)
+	TestOne(int numberOne) //Parameterized Constructor
 	{
-		this.number=number1;
+		this.numberOne = numberOne;
 	}
 	
 	void DisplayOne()
 	{
-		System.out.println("Value is : "+number);
+		System.out.println("Value using this variable of parent class is : "+numberOne);
 	}
 }
 
-class DemoTwo extends Demo
+class TestTwo extends TestOne
 {
-	int number = 20;
+	int numberTwo;
+	
+	TestTwo() //Default Constructor
+	{
+		
+	}
+	
+	TestTwo(int numberTwo) //Parameterized Constructor
+	{
+		this.numberTwo = numberTwo;
+	}
 	
 	void DisplayTwo()
 	{
-		System.out.println(number); //this prints current class variable value
-		System.out.println(super.number); //this prints parent class variable value
+		System.out.println("Value using this variable of child class is : "+numberTwo); //this prints current class variable value
+		System.out.println("Value using super variable of parent class is : "+super.number); //this prints parent class variable value
 	}
 }
 public class ThisSuperVariables
 {
 	public static void main(String args[])
 	{
-		Demo demo = new Demo(30);
-		demo.DisplayOne();
+		TestOne testOne = new TestOne(30);
+		testOne.DisplayOne();
 		
-		DemoTwo demoTwo = new Demo2();
-		demoTwo.DisplayTwo();
+		TestTwo testTwo = new TestTwo(20);
+		testTwo.DisplayTwo();
 	}
 }
