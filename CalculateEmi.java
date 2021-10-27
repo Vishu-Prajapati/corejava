@@ -6,11 +6,6 @@ public class CalculateEmi
 	double interest;
 	double time;
 	
-	CalculateEmi()
-	{
-		
-	}
-	
 	CalculateEmi(double amount, double interest, double time)
 	{
 		this.amount = amount;
