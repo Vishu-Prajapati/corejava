@@ -1,7 +1,6 @@
 /*Program to find index of an array element*/
 
-import java.lang.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class FindIndexOfArray
 {
