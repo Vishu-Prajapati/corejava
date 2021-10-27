@@ -1,8 +1,7 @@
 /*Program to add string values in the list and print all the values using an iterator*/
 
-import java.lang.*;
-import java.util.*;
-import java.io.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ListIterator
 {
