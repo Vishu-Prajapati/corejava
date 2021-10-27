@@ -1,6 +1,3 @@
-import java.lang.*;
-import java.util.*;
-
 public class WhileDoWhileStatment
 {
 	public static void main(String args[])
