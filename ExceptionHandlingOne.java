@@ -1,8 +1,8 @@
 /*Program Using throw and throws keyword*/
 
-import java.lang.*;
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
+import java.util.InputMismatchException;
+import java.lang.NullPointerException;
 
 class ExceptionHandlingOne
 {
